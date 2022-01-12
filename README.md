@@ -1,1 +1,1 @@
-# dx-client-app
+# dx client app
