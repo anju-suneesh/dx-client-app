@@ -35,6 +35,7 @@ export default function Editclient(props) {
 
        
       );
+      alert('Successfully Edited!!');
   };
   console.log(state)
   return (

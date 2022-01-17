@@ -703,7 +703,7 @@
     {
       "id": 100,
       "Name": "rx100",
-      "domain": "Testing",
+      "domain": "Manufacturing",
       "manager_id": "5",
       "RevenuePerYear": "44M"
     },
@@ -720,13 +720,6 @@
       "domain": "Testing",
       "manager_id": "7",
       "RevenuePerYear": "24M"
-    },
-    {
-      "id": "111",
-      "Name": "Anju M S",
-      "domain": "Manufacturing",
-      "manager_id": "1",
-      "RevenuePerYear": "5M"
     }
   ]
 }
