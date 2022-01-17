@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom';
 
 
 export default function Editclient(props) {
-  const { id } = useParams(); 
-  const [state, setState] = useState([]);
+  const { id } = useParams();  // to get id from url
+  const [state, setState] = useState({});
   
   useEffect(() => {
-    fetch("http://localhost:8000/clients/"+id) 
+    fetch("http://localhost:8000/clients/"+id) //api is fetched
       .then((res) => res.json())
       .then((response) => {
        setState(response);
@@ -32,7 +32,8 @@ export default function Editclient(props) {
       })
       .then(
         (data) => {}
-        //console.log(data)
+
+       
       );
   };
   console.log(state)
@@ -116,7 +117,7 @@ export default function Editclient(props) {
             </div>
           </div>
           <div class="col-sm-6">
-            <button type="submit" className=" btn btn-primary" on>
+            <button type="submit" className=" btn btn-primary" >
               Submit
             </button>
           </div>

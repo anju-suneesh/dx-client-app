@@ -19,7 +19,7 @@ export default function Routerr() {
         <Route exact path="/addClient" element={<Addclient />} />
         <Route exact path="/editClient/:id" element={<Editclient />} />
       </Routes>
-      
+      {/* </div> */}
     </Router>
   );
 }
