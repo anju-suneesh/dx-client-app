@@ -23,6 +23,7 @@ export default function Addclient() {
         // this is the data we get after putting our data,
         //console.log(data)
       );
+      alert('Successfully Submitted!!')
   };
  
   return (
