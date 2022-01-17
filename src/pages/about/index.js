@@ -5,7 +5,7 @@ export default function About() {
     <section>
       <div>
         <div>
-          <h1 className="large">Merin Mary Philip</h1>
+          <h1 className="large">Anju M S</h1>
           <p className="lead">Systems Engineer at Infosys</p>
         </div>
 
@@ -44,13 +44,13 @@ export default function About() {
         <div>
           <h2 className="text-secondary">Education</h2>
           <div>
-            <h3>Marian Engineering College</h3>
-            <p>2015 - 2019</p>
+            <h3>Narayanaguru College of Engineering</h3>
+            <p>2016-2020</p>
             <p>
-              <strong>Degree: </strong>B.Tech
+              <strong>Degree: </strong>B.E
             </p>
             <p>
-              <strong>Field Of Study: </strong>Computer Science Engineering
+              <strong>Field Of Study: </strong>Electrical and Electronics Engineering
             </p>
           </div>
         </div>
